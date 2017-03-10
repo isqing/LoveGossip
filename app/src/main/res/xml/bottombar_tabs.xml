@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_xz"
+        icon="@drawable/xz"
+        title="星座" />
+    <tab
+        id="@+id/tab_xh"
+        icon="@drawable/xh"
+        title="笑话" />
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/chat"
+        title="交友" />
+    <tab
+        id="@+id/tab_person"
+        icon="@drawable/personal"
+        title="个人中心" />
+</tabs>

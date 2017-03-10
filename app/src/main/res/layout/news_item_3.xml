@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_height_2"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp">
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/category_style"
+                android:background="@drawable/category_rect"/>
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/zz_style"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/data_style" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            style="@style/title_style"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                fresco:fadeDuration="400"
+                fresco:failureImage="@mipmap/ic_launcher"
+                fresco:failureImageScaleType="fitXY"/>
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                fresco:fadeDuration="400"
+                fresco:failureImage="@mipmap/ic_launcher"
+                fresco:failureImageScaleType="fitXY"/>
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                fresco:fadeDuration="400"
+                fresco:failureImage="@mipmap/ic_launcher"
+                fresco:failureImageScaleType="fitXY"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
