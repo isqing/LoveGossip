@@ -5,6 +5,7 @@
     tools:context="com.liyaqing.lovegossip.ui.main.XzFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/new_list"
         android:layout_width="match_parent"
